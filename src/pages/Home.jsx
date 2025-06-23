@@ -1,11 +1,15 @@
-import React from 'react';
-import Hero from '../components/Home/Hero';
+import React from 'react'
+import Hero from '../components/Hero'
+import Recently from '../components/Recently'
+import Trending from '../components/Trending'
 
 const Home = () => {
   return (
-    <div className='bg-gray-900 text-white px-10 py-8' >
-        <Hero />
-        </div>
+    <div className="bg-zinc-900">
+      <Hero />
+      <Trending />
+      <Recently />
+    </div>
   )
 }
 

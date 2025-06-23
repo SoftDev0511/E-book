@@ -1,17 +1,36 @@
-# E-book
-Introduction:
-The digital transformation of businesses has led to a significant rise in online shopping. The "Book Store" project is a web-based application developed using the MERN (MongoDB, Express.js,React.js, Node.js) stack. It enables customers to browse and purchase books online while providing an admin panel for store owners to manage book listings, inventory, and customer orders. The project aims to offer a seamless, user-friendly, and secure experience for both buyers and administrators.
+# Bookstore
 
-Problem Statement:
-Our project aims to address these challenges by:
- Providing an efficient online platform for book purchases.
- Enabling real-time updates on book availability.
- Providing an admin dashboard for managing book inventory and customer orders.
+## Overview
 
-Motivation:
- Growing demand for online shopping solutions.
- The need for small-scale book sellers to transition to digital platforms.
- Opportunity to enhance technical skills by implementing a real-world MERN stack project.
- Providing book lovers with a simple, efficient, and accessible platform.
+Bookstore is a full-stack web application built using the MERN stack. This project allows users to browse and purchase books, manage their favorite books, add books to their cart, and check order statuses. Additionally, it features an admin panel where administrators can add, edit, and manage books and order statuses.
 
-Team Members : Meherin Mahjabin Preeti (22234103131), Ihsanul Hossain Rafsan (22234103112)
+## Technologies Used
+
+* ### Frontend : React,Tailwind CSS
+
+* ### Backend : Node.js,Express
+
+* ### Database : MongoDB
+
+* ### State Management : Redux-Toolkit
+
+* ### Deployment : Vercel (Frontend),Render (Backend)
+
+## Features
+
+### User Features
+
+* Browse Books: Users can browse through a list of available books.    
+* Purchase Books: Users can add books to their cart and complete the purchase.    
+* Manage Favorites: Users can add books to their favorite list.    
+* Order Status: Users can check the status of their orders.    
+
+### Admin Features
+
+* Add Books: Admins can add new books to the database.    
+* Edit Books: Admins can edit existing book details.    
+* Manage Orders: Admins can manage the status of orders.
+
+## Tags
+
+#mern #fullstack #webapp #bookstore #ecommerce #react #tailwindcss #nodejs #express #mongodb #redux-toolkit #vercel #render #user-management #shopping-cart #order-tracking #adminpanel #crud
